@@ -122,7 +122,7 @@ action:
           domain: mobile_app
           type: notify
           title: !input reminder_title
-          message: !input sensors_tomorrow
+          message: !input "{{ sensors_tomorrow }}"
           data:
             actions:
               - title: !input notification_action_taken
