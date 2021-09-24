@@ -61,6 +61,7 @@ blueprint:
       selector:
         entity:
           domain: sensor
+          
     input_boolean:
       name: Dedicated input_boolean
       description: Create and set here a input_boolean to handle history and state of the automation
