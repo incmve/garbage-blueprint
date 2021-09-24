@@ -90,6 +90,12 @@ blueprint:
           min: 5
           max: 1440
           unit_of_measurement: minutes
+    optional_action:
+      name: Optional action
+      description: Run an action like notify a speaker at the same time that the mobile notification
+      selector:
+        action: {}
+      default: []
 variables:
   garbage_sensor_1: !input 'garbage_sensor_1'
   garbage_sensor_2: !input 'garbage_sensor_2'
