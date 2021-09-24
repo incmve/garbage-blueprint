@@ -120,7 +120,7 @@ action:
         - device_id: !input notify_device
           domain: mobile_app
           type: notify
-          title: !input notification_title
+          title: !input reminder_title
           message: !input sensors_tomorrow
           data:
             actions:
